@@ -1,0 +1,38 @@
+.resume-section {
+  padding: 6rem 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.resume-wrapper {
+  padding: 2rem;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+object {
+  border-radius: 8px;
+  flex-grow: 1;
+  background-color: transparent;
+}
+
+.text-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .resume-wrapper {
+    padding: 1rem;
+    height: 600px;
+  }
+}
